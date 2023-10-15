@@ -14,26 +14,26 @@
         app:layout_constraintTop_toTopOf="parent">
     </FrameLayout>
     <Button
-        android:id="@+id/btnFragment1"
+        android:id="@+id/btnFragmentKontak"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/black"
-        android:text="Fragment1"
+        android:text="Kontak"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/btnFragment2"
+        app:layout_constraintEnd_toStartOf="@id/btnFragmentChat"
         />
     <Button
-        android:id="@+id/btnFragment2"
+        android:id="@+id/btnFragmentChat"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/black"
-        android:text="Fragment2"
+        android:text="Chat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/btnFragment1"
+        app:layout_constraintStart_toEndOf="@id/btnFragmentKontak"
     />
 
 
